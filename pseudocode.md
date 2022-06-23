@@ -1,0 +1,33 @@
+Home page loads
+    -What is seen?
+        -top left: name title - h1?
+        -nav on left: links to socials
+        -nav on bottom: buttons for bio, projects, resume
+        -upper right: rounded out photo
+    -Interactions?
+        -LinkedIn,GitHub -> opens new window to respective site
+        -Contact Me/Email -> email via form? copies email add?
+        -Bio, projects, resume -> navigates to respective page
+Bio page loads
+    -What is seen?
+        -"Who am I?" on top for title
+        -nav on left: links to socials + home page
+        -nav on bottom: buttons for bio, projects, resume
+        -left half of white space
+            -brand statement on left
+        -right half of white space
+            -4 buttons/hover areas for extra info:
+                -sports
+                -games
+                -food
+                -music
+            -tool tip to encourage clicking/hovering of extra info buttons
+    -Interactions?
+        -LinkedIn,GitHub -> opens new window to respective site
+        -Contact Me/Email -> email via form? copies email add?
+        -Bio, projects, resume -> navigates to respective page
+        -Home button -> navigates home
+Projects page loads
+    -What is seen?
+        -nav on left: links to socials + home page
+        -nav on bottom: buttons for bio, projects, resume
