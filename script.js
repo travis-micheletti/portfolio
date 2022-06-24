@@ -12,11 +12,34 @@ const resumeHead = document.querySelector('#resume-head')
 const projectsHead = document.querySelector('#projects-head')
 const contactMeHead = document.querySelector('#contact-me-head')
 const brandStatement = document.querySelector('#brand-statement')
-const bioButtons = document.querySelector('#bio-buttons')
+const bioPageButtons = document.querySelector('#bio-buttons')
 const sportsButton = document.querySelector('#sports-button')
-const GamingButton = document.querySelector('#gaming-button')
+const gamingButton = document.querySelector('#gaming-button')
 const foodButton = document.querySelector('#food-button')
 const musicButton = document.querySelector('#music-button')
 const selfie = document.querySelector('#selfie')
 const navLinks = document.querySelector('#nav-links')
 const navButtons = document.querySelector('#nav-buttons')
+const bioNavButton = document.querySelector('#bio-button')
+const projectsNavButton = document.querySelector('#projects-button')
+const resumeNavButton = document.querySelector('#resume-button')
+const homeButton = document.querySelector('#home-button')
+const contactMeButton = document.querySelector('#contact-me-button')
+
+//other variables
+//functions
+//event listeners
+homeButton.addEventListener('click', clickTest)
+resumeNavButton.addEventListener('click', clickTest)
+projectsNavButton.addEventListener('click', clickTest)
+bioNavButton.addEventListener('click', clickTest)
+musicButton.addEventListener('click', clickTest)
+foodButton.addEventListener('click', clickTest)
+gamingButton.addEventListener('click', clickTest)
+sportsButton.addEventListener('click', clickTest)
+homeButton.addEventListener('click', clickTest)
+contactMeButton.addEventListener('click', clickTest)
+
+function clickTest() {
+    console.log('click registered!')
+}

@@ -1,10 +1,61 @@
 body {
-    /* background-image: url("https://img.freepik.com/free-vector/freelance-conceptual-background_1284-34947.jpg?w=2000"); */
+   text-align: center;
+   /* background-color: skyblue; */
+   background-image: linear-gradient(to right, rgb(109, 109, 109), rgb(2, 2, 2));
+   font-family: 'VT323', monospace;
+   color: whitesmoke;
+   text-shadow: 3px 2px black;
 }
 
 .hide {
     display:none;
 }
+#home-pic {
+    margin-top: -30px;
+    margin-bottom: 15px;
+    height: 150px;
+    width: auto;
+}
+#home-head {
+    font-size: 40px;
+}
+#subhead {
+    margin-top: -20px;
+}
+#home-subtext {
+    font-size: 18px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
 
 #selfie {
+    height: 200px;
+    border: solid rgb(159, 152, 153) 3px;
+    border-radius: 500px;
+    box-shadow: 5px 5px rgb(28, 25, 26);
+    img {
+        width: auto;
+        max-height: 50%;
+        object-fit: contain;
+        
+    }
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    font-size: 24px;
+    margin-left: -40px;
+    list-style: none;
+    display: flex;
+    /* justify-content: flex-start; */
+    justify-content: center;
+    /* justify-content: space-around; */
+    column-gap: 44px;
+}
+#nav-buttons {
+    margin-top: -15px;
+    font-size: 14px;
 }

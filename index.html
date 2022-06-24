@@ -7,11 +7,24 @@
     <title>Travis Micheletti</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    
 </head>
 <body>
     <header>
+        <div>
+            <img src="https://media-exp2.licdn.com/dms/image/C4E03AQHNAQPHokpO_A/profile-displayphoto-shrink_800_800/0/1572099796537?e=1661385600&v=beta&t=qXh0_mSmCgK4HzLzXipYzleZlMvsw5DqFPw0dDarlXY" alt="Travis Micheletti business photograph" id="selfie"/>
+        </div>
         <div id="home-head">
             <h1>Travis Micheletti</h1>
+            <h3 id="subhead">Junior Software Developer</h3>
+        </div>
+        <div>
+            <img src="https://c.tenor.com/iPWC0upqq_QAAAAi/animated-man-running.gif" alt="running man pixelated cartoon graphic" id="home-pic"/>
+            <div id="home-subtext">I hit the ground running in my development career.<br> Start exploring my journey below!</div>
         </div>
         <div id="resume-head" class="hide">
             <h2>Professional Experience</h2>
@@ -51,44 +64,34 @@
         <div id="contact-me-content" class="hide">
             This will be a contact me form
         </div>
-        <div id="selfie">
-            <img src="https://media-exp2.licdn.com/dms/image/C4E03AQHNAQPHokpO_A/profile-displayphoto-shrink_800_800/0/1572099796537?e=1661385600&v=beta&t=qXh0_mSmCgK4HzLzXipYzleZlMvsw5DqFPw0dDarlXY" alt="Travis Micheletti business photograph"/>
-        </div>
+        
     </div>
     <nav id="nav-links">
         <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/travis-micheletti-039654162/">
-                    <i class="fab fa-linkedin"></i>
-                    LinkedIn
-                    <!-- placeholder for now until I can figure out icon -->
-                </a>
+            <li id="bio-button">Bio</li>
+                <li id="projects-button">Projects</li>
+                <li id="resume-button">Resume</li>
+            <!-- <li>
+                <a href="https://www.linkedin.com/in/travis-micheletti-039654162/" target="_blank">LinkedIn</a>
             </li>
             <li>
-                <a href="https://github.com/travis-micheletti">
-                    <i class="fab fa-github"></i>
-                    GitHub
-                    <!-- placeholder for now until I can figure out icon -->
-                </a>
+                <a href="https://github.com/travis-micheletti" target="_blank">GitHub</a>
             </li>
-            <li>
-                Contact Me
-                <!-- placeholder until I decide on format for contact me -->
-            </li>
+            <li id="contact-me-button">Contact</li> -->
         </ul>
     </nav>
     <footer>
-        <nav id="nav-buttons">
-            <ul>
+        <nav>
+            <ul id="nav-buttons">
+                <li id="home-button">Home</li>
                 <li>
-                    <button id="bio-button">Bio</button>
+                    <a href="https://www.linkedin.com/in/travis-micheletti-039654162/" target="_blank">LinkedIn</a>
                 </li>
                 <li>
-                    <button id="projects-button">Projects</button>
+                    <a href="https://github.com/travis-micheletti" target="_blank">GitHub</a>
                 </li>
-                <li>
-                    <button id="resume-button">Resume</button>
-                </li>
+                <li id="contact-me-button">Contact</li>
+                
             </ul>
         </nav>
     </footer>
