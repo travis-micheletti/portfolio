@@ -5,10 +5,10 @@ body {
    font-family: 'VT323', monospace;
    color: whitesmoke;
    text-shadow: 3px 2px black;
+   background-size: cover;
 }
-
-.hide {
-    display:none;
+header {
+    font-size: 28px;
 }
 #home-pic {
     margin-top: -30px;
@@ -47,6 +47,7 @@ a {
 
 ul {
     font-size: 24px;
+    margin-top: 100px;
     margin-left: -40px;
     list-style: none;
     display: flex;
@@ -56,6 +57,93 @@ ul {
     column-gap: 44px;
 }
 #nav-buttons {
+    margin-right: 10px;
     margin-top: -15px;
     font-size: 14px;
+}
+#resume-content {
+    max-height: 100%;
+    width: auto;
+}
+.show-head {
+    font-size: 28px;
+}
+#resume {
+        height: 55vh;
+        width: auto;
+        margin-top: 30px;
+        margin-bottom: 40px;
+}
+#projects-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -200px;
+    font-size: 20px;
+}
+#project-one{
+    height: 30vh;
+    width: 90vw;
+}
+#project-two {
+    height: 30vh;
+    width: 90vw;
+}
+#project-three {
+    height: 30vh;
+    width: 90vw;
+}
+#project-four {
+    height: 30vh;
+    width: 90vw;
+    margin-left: 10px;
+}
+#bio-content {
+    height: 80vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    
+}
+#bio-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3vh;
+    margin-top: 3vh;
+}
+#brand-statment {
+    width: 20vw;
+}
+#extra-info-box {
+    display: flex;
+    gap: 20px;
+}
+#bio-responses {
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-end; */
+    gap: 3vh;
+    margin-top: 3vh;
+}
+#bio-gif {
+    width: 80vw;
+    height: 22vh;
+    margin-bottom: 50px;
+    border-radius: 15px
+}
+#whats-up {
+height: 100px;
+}
+#contact-me-content {
+    align-items: center;
+    /* margin-left: 157px; */
+}
+#contact-me-pic {
+    width: 90vw;
+    height: auto;
+    margin-bottom: 20px;
+}
+.hide {
+    display: none;
 }

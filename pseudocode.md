@@ -34,7 +34,7 @@ Bio page loads
                 -sports
                 -games
                 -food
-                -music
+                -and.. - additional section to write a quick blurb
                     -these will be enabled by an event listener for hover/click
                     -need to be sure this is obvious to do w/ a tooltip(as shown below)
             -tool tip to encourage clicking/hovering of extra info buttons

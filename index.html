@@ -10,89 +10,120 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-
-    
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div>
-            <img src="https://media-exp2.licdn.com/dms/image/C4E03AQHNAQPHokpO_A/profile-displayphoto-shrink_800_800/0/1572099796537?e=1661385600&v=beta&t=qXh0_mSmCgK4HzLzXipYzleZlMvsw5DqFPw0dDarlXY" alt="Travis Micheletti business photograph" id="selfie"/>
-        </div>
+        <!-- home page specific HTML elements -->
         <div id="home-head">
-            <h1>Travis Micheletti</h1>
-            <h3 id="subhead">Junior Software Developer</h3>
+            <img src="https://media-exp2.licdn.com/dms/image/C4E03AQHNAQPHokpO_A/profile-displayphoto-shrink_800_800/0/1572099796537?e=1661385600&v=beta&t=qXh0_mSmCgK4HzLzXipYzleZlMvsw5DqFPw0dDarlXY" alt="Travis Micheletti business photograph" id="selfie"/>
+            <h1>travis micheletti</h1>
+            <h3 id="subhead">junior software developer</h3>
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fe3e8e06-b0e5-40a4-b500-713aa6d6d8dd/d6jkc5y-9de79f1d-43ea-4a4e-8879-a26368a09f56.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZlM2U4ZTA2LWIwZTUtNDBhNC1iNTAwLTcxM2FhNmQ2ZDhkZFwvZDZqa2M1eS05ZGU3OWYxZC00M2VhLTRhNGUtODg3OS1hMjYzNjhhMDlmNTYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.c0BuGrCK38FOhJvMt6N-JP4lTZfIeP0_eng3ia-upAg" alt="running man pixelated cartoon graphic" id="home-pic"/>
+            <div id="home-subtext">i hit the ground running in my development career<br> start exploring my journey below!</div>
         </div>
-        <div>
-            <img src="https://c.tenor.com/iPWC0upqq_QAAAAi/animated-man-running.gif" alt="running man pixelated cartoon graphic" id="home-pic"/>
-            <div id="home-subtext">I hit the ground running in my development career.<br> Start exploring my journey below!</div>
-        </div>
+        <!-- resume page header specific HTML elements -->
         <div id="resume-head" class="hide">
-            <h2>Professional Experience</h2>
+            <h2>professional experience</h2>
         </div>
+        <!-- bio page header specific HTML elements -->
         <div id="bio-head" class="hide">
-            <h2>Who am I?</h2>
+            <h2>who am i?</h2>
         </div>
+        <!-- projects page header specific HTML elements -->
         <div id="projects-head" class="hide">
-            <h2>Projects</h2>
+            <h2>projects</h2>
         </div>
+        <!-- contact me page header specific HTML elements -->
         <div id="contact-me-head" class="hide">
-            <h2>Contact Me</h2>
+            <h2>contact me</h2>
         </div>
     </header>
     <div id="main-content">
         <div id="resume-content" class="hide">
-            This is where the resume PDF will go
+            <img src="https://i.ibb.co/Vjf5gCj/Resume.png" id="resume" alt="Professional experience - Travis Micheletti's Resume"></img>
         </div>
-        <div id="projects-content" class="hide">
-            This is where the projects will go
-            <div><img src="data:image/jpeg;base64,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" alt="Baby elephant playing in the grass"/>Project 1</div>
-            <div><img src="https://akns-images.eonline.com/eol_images/Entire_Site/201438/rs_1024x759-140408154504-1024.baby-elephant-grass.ls.4814.jpg?fit=around%7C1024:759&output-quality=90&crop=1024:759;center,top" alt="Baby elephant holding grass in the air"/>Project 2</div>
-            <div><img src="https://i.pinimg.com/736x/ff/10/17/ff1017a112a3dbbc6075d89b821dc3dd--elephant-baby-asian-elephant.jpg" alt="Baby elephant standing up, close picture"/>Project 3</div>
-            <div></div><img src="https://www.boredpanda.com/blog/wp-content/uploads/2017/04/cute-baby-elephants-44-5901f54331c30__700.jpg" alt="Baby elephant getting a drink"/>Project 4</div>
+        <div id="test" class="hide">
+        <div id="projects-content">
+            My projects are currently under construction! Enjoy these baby elephants in the meantime!
+            <div><img src="https://media.gettyimages.com/photos/elephant-baby-playing-picture-id143795695?k=20&m=143795695&s=612x612&w=0&h=7ckxg14bJcE1xDafHo4t2KVwXFRiDP1p16-zGBkWvnU=" id="project-one"alt="Baby elephant playing in the grass"/><span id="project-one">Project 1</span></div>
+            <div><img src="https://akns-images.eonline.com/eol_images/Entire_Site/201438/rs_1024x759-140408154504-1024.baby-elephant-grass.ls.4814.jpg?fit=around%7C1024:759&output-quality=90&crop=1024:759;center,top" id="project-two" alt="Baby elephant holding grass in the air"/><span id="project-two">Project 2</span></div>
+            <div><img src="https://www.boredpanda.com/blog/wp-content/uploads/2017/04/58fdbaac3329b_qWDL5Lq__700.jpg" id="project-three" alt="Baby elephant playing with birds"/><span id="project-three">Project 3</span></div>
+            <div><img src="https://www.boredpanda.com/blog/wp-content/uploads/2017/04/cute-baby-elephants-44-5901f54331c30__700.jpg" id="project-four" alt="Baby elephant getting a drink"/><span id="project-four">Project 4</span></div>
         </div>
+    </div>
         <div id="bio-content" class="hide">
-            <div id="brand-statement" class="hide">
-                This is where my brand statement will go
+            <img src="https://thumbs.gfycat.com/DecisiveTerribleAsianconstablebutterfly-size_restricted.gif" id="bio-gif" alt="derek zoolander gif asking `Who am I?` and responding back to himself `I don't know"/>
+            <div id="brand-statement">
+                “I’m a developing software engineer, former college athlete and gamer with a passion for puzzles, people, and competition..
+                <br>..while clean and concise code with intuitive and aesthetically-pleasing design are top priorities, creating ethical and moral products that keep everyone in mind always comes first.” - Travis Micheletti
+                <br>
+                <br>
+                ..but what else?
             </div>
-            <div id="bio-buttons" class="hide">
-                <button id="sports-button">Sports</button>
-                <button id="gaming-button">Gaming</button>
-                <button id="food-button">Food</button>
-                <button id="music-button">Music</button>
+            <div id="extra-info-box">
+                <ul id="bio-buttons">
+                    <li id="sports-button">sports</li>
+                    <li id="gaming-button">gaming</li>
+                    <li id="food-button">food</li>
+                    <li id="and-button">and..</li>
+                </ul>
+                <div id="bio-responses">
+                        <span id="sports-response" class="hide">I played all sorts of sports growing up and even competed collegiately in soccer! These days I'm more of a fun and am a huge supporter of the Oklahoma City Thunder and Manchester City FC!</span>
+                        <span id="gaming-response" class="hide">I've played Counter-Strike and it's variations since the early 2000's and have always loved shooters. In recent years I've also come to love strategy games like Civilization too!</span>
+                        <span id="food-response" class="hide">I'm a huge foodie and love trying different foods from around the world. My wife is Dominican so luckily I get spoiled with tostones and pastelón on the regular. I also love Japanese, Thai, Vietnamese and Indian food!</span>
+                        <span id="and-response" class="hide">..in case it isn't obvious by this point, I love to laugh and have fun! As tacky as it sounds, you only live once and I'll be sure to laugh to the very end! I hope you've been able to chuckle at least once by visiting my profile!</span>
+                </div>
             </div>
         </div>
         <div id="contact-me-content" class="hide">
-            This will be a contact me form
+            <img src="https://y.yarn.co/00b28dca-1d80-4842-acc0-d5f5a9bc43ee_text.gif" id="contact-me-pic" alt="whats updog the office gif with michael and dwight"/>
+            <form action="contact_form.php">
+                <label for="firstName"> first name</label>
+                <input type="text" id="firstName" name="first-name" placeholder="First name">
+                    <br>
+                <label for="lastName"> last name</label>
+                <input type="text" id="lastName" name="last-name" placeholder="Last name">
+                    <br>
+                <label for="location">&nbsp;country&nbsp;&nbsp;</label>
+                <select id="location" name="country">
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="dr">Republica Dominicana</option>
+                    <option value="thailand">Thailand</option>
+                </select>
+                    <br>
+                <label for="email"> &nbsp;email &nbsp;&nbsp;</label>
+                <input type="text" id="email" name="email-address" placeholder="Email Address">
+                    <br>
+                <label for="whats-up">whats updog?</label>
+                <textarea id="whats-up" name="text" placeholder="tell me what you'd like to know or why you're reaching out - tell me what's updog!"></textarea>
+                    <br>
+                <input type="submit" value="Submit">
+            </form>
         </div>
         
     </div>
     <nav id="nav-links">
         <ul>
-            <li id="bio-button">Bio</li>
-                <li id="projects-button">Projects</li>
-                <li id="resume-button">Resume</li>
-            <!-- <li>
-                <a href="https://www.linkedin.com/in/travis-micheletti-039654162/" target="_blank">LinkedIn</a>
-            </li>
-            <li>
-                <a href="https://github.com/travis-micheletti" target="_blank">GitHub</a>
-            </li>
-            <li id="contact-me-button">Contact</li> -->
+            <li id="bio-button">bio</li>
+                <li id="projects-button">projects</li>
+                <li id="resume-button">resume</li>
         </ul>
     </nav>
     <footer>
         <nav>
             <ul id="nav-buttons">
-                <li id="home-button">Home</li>
+                <li id="home-button">home</li>
                 <li>
-                    <a href="https://www.linkedin.com/in/travis-micheletti-039654162/" target="_blank">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/travis-micheletti-039654162/" target="_blank">linkedin</a>
                 </li>
                 <li>
-                    <a href="https://github.com/travis-micheletti" target="_blank">GitHub</a>
+                    <a href="https://github.com/travis-micheletti" target="_blank">github</a>
                 </li>
-                <li id="contact-me-button">Contact</li>
-                
-            </ul>
+                <li id="contact-me-button">contact</li>
+                </ul>
         </nav>
     </footer>
     <script src="script.js"></script>
