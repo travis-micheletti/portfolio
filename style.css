@@ -63,6 +63,7 @@ ul {
     transition-duration: 1s;
     }
 }
+
 #resume-content {
     max-height: 100%;
     width: auto;
@@ -171,12 +172,12 @@ height: 100px;
 #projects-div{
     height: 130vh;
 }
-li:hover {
+/* li:hover {
     font-size: 40px;
     transition: all 500ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
     transition-delay: 50ms;
     transition-duration: 1s;
-}
+} */
 
 .light-mode {
     background-color: rgb(242, 210, 234);
@@ -231,6 +232,12 @@ li:hover {
 }
 /* MEDIUM SCREENS */
 @media only screen and (min-width: 768px) {
+    li:hover {
+        background-color:aqua;
+        font-size: 30px;
+        transition-delay: 50ms;
+        transition-duration: 500ms;
+    }
     #selfie {
         height: 30vh;
         width: auto;
@@ -252,18 +259,26 @@ li:hover {
         margin-bottom: 10vh;
     }
     #subhead {
-        font-size: 22px;
+        font-size: 18px;
     }
     #home-pic {
-        height: 300px;
+        height: 250px;
         width: auto;
         position: relative;
         left: 30vw;
         bottom: 5vh;
     }
-
+}
 /* LARGE SCREENS */
-@media only screen and (min-width: 1550px) {
+@media only screen and (min-width: 1250px) {
+    ul:hover {
+        font-size: 40px;
+        transition-delay: 50ms;
+        transition-duration: 1s;
+    }
+    li:hover {
+        background-color:aqua;
+    }
     #selfie {
         height: 40vh;
         width: auto;
