@@ -1,12 +1,9 @@
 body {
    text-align: center;
    background-color: black;
-   /* background-color: skyblue; */
-   /* background-image: linear-gradient(to right, rgb(109, 109, 109), rgb(2, 2, 2)); */
-   /* background-image: url('https://wallpaperaccess.com/full/6071431.jpg'); */
    font-family: 'VT323', monospace;                                            
-   color: whitesmoke;
-   text-shadow: 3px 2px black;
+   color: rgb(134, 133, 133);
+   text-shadow: 3px 2px rgb(75, 41, 62);
    background-size: auto;
 }
 header {
@@ -33,7 +30,7 @@ header {
     height: 200px;
     border: solid rgb(159, 152, 153) 3px;
     border-radius: 500px;
-    box-shadow: 5px 5px rgb(28, 25, 26);
+    box-shadow: 5px 5px rgb(75, 41, 62);
    
 }
 
@@ -75,6 +72,16 @@ ul {
         width: auto;
         margin-top: 30px;
         margin-bottom: 40px;
+}
+#resume:hover {
+    height: 80vh;
+    width: auto;
+}
+#resume-gif {
+    height: 25vh;
+}
+#resume-gif:hover {
+    display: none;
 }
 #projects-div {
     height: 40vh;
@@ -183,5 +190,103 @@ li:hover {
     height: 200px;
     border: solid rgb(134, 16, 16) 3px;
     border-radius: 500px;
-    box-shadow: 5px 5px rgb(194, 162, 173);
+    box-shadow: 5px 5px white;
    }
+.circle-light {
+    height: 1.8vh;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    border: solid rgb(134, 16, 16) 2px;
+    border-radius: 10px;
+}
+#color-mode {
+   display: flex;
+   justify-content: flex-start;
+   cursor: pointer;
+}
+.circle-dark {
+    height: 2vh;
+    width: auto;
+    background-color: rgb(242, 210, 234);
+    border-radius: 50px;
+    border: solid white 1px;
+}
+.color-mode-light {
+    display: flex;
+   justify-content: flex-start;
+   color: rgb(134, 16, 16);
+   font-size: 16px;
+   cursor: pointer;
+}
+.color-mode-text-dark {
+    color: rgb(242, 210, 234);
+   font-size: 14px;
+   padding-top: 3px;
+}
+.color-mode-text-light {
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+   font-size: 14px;
+   padding-top: 2.5px;
+}
+/* MEDIUM SCREENS */
+@media only screen and (min-width: 768px) {
+    #selfie {
+        height: 30vh;
+        width: auto;
+        position: relative;
+        left: 35vw;
+        bottom: 1vh;
+    }
+    #home-head {
+        font-family: 'Press Start 2P', cursive;
+        margin-bottom: -20vh;
+    }
+    #home-head-text {
+        text-align: left;
+        position: relative;
+        bottom: 260px;
+    }
+    #name-head {
+        font-size: 55px;
+        margin-bottom: 10vh;
+    }
+    #subhead {
+        font-size: 22px;
+    }
+    #home-pic {
+        height: 300px;
+        width: auto;
+        position: relative;
+        left: 30vw;
+        bottom: 5vh;
+    }
+
+/* LARGE SCREENS */
+@media only screen and (min-width: 1550px) {
+    #selfie {
+        height: 40vh;
+        width: auto;
+        position: relative;
+        left: 35vw;
+        bottom: 2vh;   
+    }
+    #home-head {
+        font-family: 'Press Start 2P', cursive;
+        margin-bottom: -30vh;
+    }
+    #home-head-text {
+        text-align: left;
+        position: relative;
+        bottom: 300px;
+    }
+    #name-head {
+        font-size: 65px;
+    }
+    #home-pic {
+        height: 400px;
+        width: auto;
+        position: relative;
+        left: 30vw;
+    }
+}

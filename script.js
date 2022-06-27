@@ -30,9 +30,34 @@ const sportsResponse = document.querySelector('#sports-response')
 const gamingResponse = document.querySelector('#gaming-response')
 const foodResponse = document.querySelector('#food-response')
 const andResponse = document.querySelector('#and-response')
+const colorMode = document.querySelector('#color-mode')
+const colorModeText = document.querySelector('#color-mode-text')
+const colorModeCircle = document.querySelector('#color-mode-circle')
 
 //other variables
+let currentColorMode = "dark-mode"
 //functions
+const colorModeClick = () => {
+    if (currentColorMode == 'dark-mode') {
+        document.body.classList.add('light-mode')
+        colorModeText.innerText = "dark mode"
+        colorModeText.classList.remove('color-mode-text-dark')
+        colorModeText.classList.add('color-mode-text-light')
+        currentColorMode = "light-mode"
+        selfie.classList.add('light-mode-selfie')
+        colorModeCircle.classList.remove('circle-dark')
+        colorModeCircle.classList.add('circle-light')
+    } else {
+        document.body.classList.remove('light-mode')
+        colorModeText.innerText = "light mode"
+        colorModeText.classList.remove('color-mode-text-light')
+        colorModeText.classList.add('color-mode-text-dark')
+        currentColorMode = "dark-mode"
+        selfie.classList.remove('light-mode-selfie')
+        colorModeCircle.classList.remove('circle-light')
+        colorModeCircle.classList.add('circle-dark')
+    }
+}
 const homeButtonClick = () => {
     homeHead.classList.remove('hide')
     bioHead.classList.add('hide')
@@ -181,6 +206,7 @@ sportsButton.addEventListener('click', sportsButtonClick)
 homeButton.addEventListener('click', clickTest)
 contactMeButton.addEventListener('click', contactMeButtonClick)
 homeButton.addEventListener('mouseover', applyHover)
+colorMode.addEventListener('click', colorModeClick)
 // projectOneText.addEventListener('click', clickTest)
 // projectTwoText.addEventListener('click', clickTest)
 // projectThreeText.addEventListener('click', clickTest)
