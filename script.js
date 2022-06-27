@@ -180,11 +180,15 @@ gamingButton.addEventListener('click', gamingButtonClick)
 sportsButton.addEventListener('click', sportsButtonClick)
 homeButton.addEventListener('click', clickTest)
 contactMeButton.addEventListener('click', contactMeButtonClick)
+homeButton.addEventListener('mouseover', applyHover)
 // projectOneText.addEventListener('click', clickTest)
 // projectTwoText.addEventListener('click', clickTest)
 // projectThreeText.addEventListener('click', clickTest)
 // projectFourText.addEventListener('click', clickTest)
 
 function clickTest() {
-    console.log('click registered!')
+    console.log('click registered')
+}
+function applyHover() {
+    homeButton.classList.toggle('hover')
 }
