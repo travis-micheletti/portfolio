@@ -1,0 +1,307 @@
+body {
+   text-align: center;
+   background-color: black;
+   font-family: 'VT323', monospace;                                            
+   color: rgb(134, 133, 133);
+   text-shadow: 3px 2px rgb(75, 41, 62);
+   background-size: auto;
+}
+header {
+    font-size: 28px;
+}
+#home-pic {
+    height: 150px;
+    width: auto;
+}
+#home-head {
+    font-size: 40px;
+}
+#subhead {
+    margin-top: -50px;
+    font-size: 26px;
+}
+#home-subtext {
+    font-size: 18px;
+    padding-top: 10px;
+    margin-bottom: -20px;
+}
+
+.selfie-normal {
+    height: 200px;
+    border: solid rgb(159, 152, 153) 3px;
+    border-radius: 500px;
+    box-shadow: 5px 5px rgb(75, 41, 62);
+   
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    font-size: 24px;
+    margin-top: 100px;
+    margin-left: -40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 44px;
+    cursor: pointer;
+    
+}
+#nav-buttons {
+    margin-right: 10px;
+    margin-top: -15px;
+    font-size: 14px;
+    
+}
+#nav-buttons:hover {
+    li {
+    font-size: 40px;
+    transition-delay: 50ms;
+    transition-duration: 1s;
+    }
+}
+
+#resume-content {
+    max-height: 100%;
+    width: auto;
+}
+#resume {
+        height: 55vh;
+        width: auto;
+        margin-top: 30px;
+        margin-bottom: 40px;
+}
+#resume:hover {
+    height: 80vh;
+    width: auto;
+}
+#resume-gif {
+    height: 25vh;
+}
+#resume-gif:hover {
+    display: none;
+}
+#projects-div {
+    height: 40vh;
+    /* margin-bottom: 320px; */
+    overflow: auto;
+}
+#projects-content {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    
+}
+#project-one{
+    height: 30vh;
+    width: 90vw;
+}
+#project-two {
+    height: 30vh;
+    width: 90vw;
+}
+#project-three {
+    height: 30vh;
+    width: 90vw;
+}
+#project-four {
+    height: 30vh;
+    width: 90vw;
+    margin-left: 10px;
+}
+#projects-pic {
+    width: 80vw;
+    align-self: center;
+    margin-bottom: 40px;
+    
+}
+#bio-content {
+    height: 80vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    
+}
+#bio-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3vh;
+    margin-top: 3vh;
+}
+#brand-statment {
+    width: 20vw;
+}
+#extra-info-box {
+    display: flex;
+    gap: 20px;
+}
+#bio-responses {
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-end; */
+    gap: 3vh;
+    margin-top: 3vh;
+}
+#bio-gif {
+    width: 80vw;
+    height: 22vh;
+    margin-bottom: 50px;
+    border-radius: 15px
+}
+#whats-up {
+height: 100px;
+}
+#contact-me-content {
+    align-items: center;
+    /* margin-left: 157px; */
+}
+#contact-me-pic {
+    width: 90vw;
+    height: auto;
+    margin-bottom: 20px;
+}
+.hide {
+    display: none;
+}
+#projects-div{
+    height: 130vh;
+}
+/* li:hover {
+    font-size: 40px;
+    transition: all 500ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    transition-delay: 50ms;
+    transition-duration: 1s;
+} */
+
+.light-mode {
+    background-color: rgb(242, 210, 234);
+    color: rgb(134, 16, 16);
+    text-shadow: 3px 2px white;
+    background-size: auto;
+
+}
+
+.light-mode-selfie {
+    height: 200px;
+    border: solid rgb(134, 16, 16) 3px;
+    border-radius: 500px;
+    box-shadow: 5px 5px white;
+   }
+.circle-light {
+    height: 1.8vh;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    border: solid rgb(134, 16, 16) 2px;
+    border-radius: 10px;
+}
+#color-mode {
+   display: flex;
+   justify-content: flex-start;
+   cursor: pointer;
+}
+.circle-dark {
+    height: 2vh;
+    width: auto;
+    background-color: rgb(242, 210, 234);
+    border-radius: 50px;
+    border: solid white 1px;
+}
+.color-mode-light {
+    display: flex;
+   justify-content: flex-start;
+   color: rgb(134, 16, 16);
+   font-size: 16px;
+   cursor: pointer;
+}
+.color-mode-text-dark {
+    color: rgb(242, 210, 234);
+   font-size: 14px;
+   padding-top: 3px;
+}
+.color-mode-text-light {
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+   font-size: 14px;
+   padding-top: 2.5px;
+}
+/* MEDIUM SCREENS */
+@media only screen and (min-width: 768px) {
+    li:hover {
+        background-color:aqua;
+        font-size: 30px;
+        transition-delay: 50ms;
+        transition-duration: 500ms;
+    }
+    #selfie {
+        height: 30vh;
+        width: auto;
+        position: relative;
+        left: 35vw;
+        bottom: 1vh;
+    }
+    #home-head {
+        font-family: 'Press Start 2P', cursive;
+        margin-bottom: -20vh;
+    }
+    #home-head-text {
+        text-align: left;
+        position: relative;
+        bottom: 260px;
+    }
+    #name-head {
+        font-size: 55px;
+        margin-bottom: 10vh;
+    }
+    #subhead {
+        font-size: 18px;
+    }
+    #home-pic {
+        height: 250px;
+        width: auto;
+        position: relative;
+        left: 30vw;
+        bottom: 5vh;
+    }
+}
+/* LARGE SCREENS */
+@media only screen and (min-width: 1250px) {
+    ul:hover {
+        font-size: 40px;
+        transition-delay: 50ms;
+        transition-duration: 1s;
+    }
+    li:hover {
+        background-color:aqua;
+    }
+    #selfie {
+        height: 40vh;
+        width: auto;
+        position: relative;
+        left: 35vw;
+        bottom: 2vh;   
+    }
+    #home-head {
+        font-family: 'Press Start 2P', cursive;
+        margin-bottom: -30vh;
+    }
+    #home-head-text {
+        text-align: left;
+        position: relative;
+        bottom: 300px;
+    }
+    #name-head {
+        font-size: 65px;
+    }
+    #home-pic {
+        height: 400px;
+        width: auto;
+        position: relative;
+        left: 30vw;
+    }
+}
