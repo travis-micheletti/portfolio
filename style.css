@@ -2,8 +2,8 @@ body {
    text-align: center;
    background-color: black;
    font-family: 'VT323', monospace;                                            
-   color: rgb(134, 133, 133);
-   text-shadow: 3px 2px rgb(75, 41, 62);
+   color: rgb(242, 210, 234);
+   text-shadow: 3px 2px rgb(247, 70, 21);
    background-size: auto;
 }
 header {
@@ -16,14 +16,27 @@ header {
 #home-head {
     font-size: 40px;
 }
+.dark-border {
+    border-left:rgb(242, 210, 234) inset 8px;
+    padding-left: 1vw;
+    position: relative;
+    left: 6px;
+}
+.light-border {
+    border-left:rgb(134, 16, 16) inset 8px;
+    padding-left: 1vw;
+    position: relative;
+    left: 6px;
+}
 #subhead {
     margin-top: -50px;
     font-size: 26px;
 }
 #home-subtext {
+    align-text: center;
     font-size: 18px;
     padding-top: 10px;
-    margin-bottom: -20px;
+    margin-bottom: -35px;
 }
 
 .selfie-normal {
@@ -41,27 +54,19 @@ a {
 
 ul {
     font-size: 24px;
-    margin-top: 100px;
-    margin-left: -40px;
+    margin-top: 10vh;
     list-style: none;
     display: flex;
     justify-content: center;
+    /* align-items: center; */
     column-gap: 44px;
     cursor: pointer;
     
 }
 #nav-buttons {
-    margin-right: 10px;
     margin-top: -15px;
     font-size: 14px;
     
-}
-#nav-buttons:hover {
-    li {
-    font-size: 40px;
-    transition-delay: 50ms;
-    transition-duration: 1s;
-    }
 }
 
 #resume-content {
@@ -81,9 +86,6 @@ ul {
 #resume-gif {
     height: 25vh;
 }
-#resume-gif:hover {
-    display: none;
-}
 #projects-div {
     height: 40vh;
     /* margin-bottom: 320px; */
@@ -99,19 +101,23 @@ ul {
 #project-one{
     height: 30vh;
     width: 90vw;
+    max-width: 400px;
 }
 #project-two {
     height: 30vh;
     width: 90vw;
+    max-width: 400px;
 }
 #project-three {
     height: 30vh;
     width: 90vw;
+    max-width: 400px;
 }
 #project-four {
     height: 30vh;
     width: 90vw;
     margin-left: 10px;
+    max-width: 400px;
 }
 #projects-pic {
     width: 80vw;
@@ -125,7 +131,10 @@ ul {
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    
+    margin-bottom: 350px;
+}
+#bio-click-box {
+    margin-bottom: 1vh;
 }
 #bio-buttons {
     display: flex;
@@ -142,15 +151,29 @@ ul {
     gap: 20px;
 }
 #bio-responses {
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-end; */
     gap: 3vh;
-    margin-top: 3vh;
+    margin-top: 10vh;
+    /* font-family: 'Rajdhani', sans-serif; */
+    text-shadow: none;
+    margin-bottom: 10vh;
+}
+.bio-responses-light {
+ 
+    color: rgb(12, 238, 246);
+    background-color: black;
+    border-radius: 15px;
+    padding-top: 15px;
+
+}
+.bio-responses-dark {
+    color: rgb(12, 238, 246);
+    text-shadow: none;
 }
 #bio-gif {
     width: 80vw;
     height: 22vh;
+    max-width: 400px;
+    min-width: 20vw;
     margin-bottom: 50px;
     border-radius: 15px
 }
@@ -184,7 +207,7 @@ height: 100px;
     color: rgb(134, 16, 16);
     text-shadow: 3px 2px white;
     background-size: auto;
-
+    
 }
 
 .light-mode-selfie {
@@ -231,12 +254,17 @@ height: 100px;
    padding-top: 2.5px;
 }
 /* MEDIUM SCREENS */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1249px) {
     li:hover {
-        background-color:aqua;
+        background-color:rgb(21, 174, 174);
         font-size: 30px;
         transition-delay: 50ms;
         transition-duration: 500ms;
+    }
+    #nav-buttons:hover {
+        li {
+        font-size: 20px;
+        }
     }
     #selfie {
         height: 30vh;
@@ -267,17 +295,95 @@ height: 100px;
         position: relative;
         left: 30vw;
         bottom: 5vh;
+        margin-bottom: -5vh;
+    }
+    #nav-links {
+        position: relative;
+        top: 5vh;
+    }
+    footer {
+        position: relative;
+        top: 5vh;
+    }
+    #color-mode-text {
+        font-size: 20px;
+        position: relative;
+        bottom: .4vh;
+    }
+    #bio-head {
+        font-size: 60px;
+    }
+    #bio-gif {
+        max-width: 30vw;
+    }
+    #bio-content {
+        margin-bottom: 100px;
+    }
+    #brand-statement {
+        font-size: 32px;
+    }
+    #projects-head {
+        font-size: 48px;
+    }
+    #projects-text {
+        position: relative;
+        left: 18vw;
+    }
+    #projects-pic {
+        position: relative;
+        left: 25vw;
+        max-width: 50vw;
+        height: auto;
+    }
+    #projects-content {
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #project-one{
+        width: 40vw;
+        height: 30vh;
+    }
+    #project-two {
+         width: 40vw;
+        height: 30vh;
+    }
+    #project-three {
+         width: 40vw;
+        height: 30vh;
+    }
+    #project-four {
+        width: 40vw;
+        height: 30vh;
+        margin-left: 10px;
+    }
+    #bio-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3vh;
+        margin-top: 3vh;
+    }
+    #resume-content {
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    #contact-me-pic {
+        max-height: 60vh;
+        width: auto;
+        min-height: 20vh;
     }
 }
 /* LARGE SCREENS */
 @media only screen and (min-width: 1250px) {
-    ul:hover {
+    /* ul:hover {
         font-size: 40px;
         transition-delay: 50ms;
         transition-duration: 1s;
-    }
+    } */
     li:hover {
-        background-color:aqua;
+        background-color:rgb(12, 238, 246);
     }
     #selfie {
         height: 40vh;
@@ -288,20 +394,98 @@ height: 100px;
     }
     #home-head {
         font-family: 'Press Start 2P', cursive;
-        margin-bottom: -30vh;
+        margin-bottom: -40vh;
     }
     #home-head-text {
         text-align: left;
         position: relative;
-        bottom: 300px;
+        bottom: 380px;
     }
     #name-head {
         font-size: 65px;
     }
     #home-pic {
-        height: 400px;
+        height: 350px;
         width: auto;
         position: relative;
         left: 30vw;
+        margin-bottom: -10vh;
+    }
+   
+    #projects-content {
+        height: 80vh;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #projects-text {
+        font-size: 40px;
+        position: relative;
+        left: 40px;
+    }
+    #resume-content {
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    #resume {
+        height: 65vh;
+        width: auto;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    #resume:hover {
+        height: 90vh;
+        width: auto;
+    }
+    #color-mode-text {
+        font-size: 20px;
+        position: relative;
+        bottom: .4vh;
+    }
+    #contact-me-pic {
+        max-height: 60vh;
+        width: auto;
+        min-height: 20vh;
+    }
+}
+/* PREVENT RESIZING WHEN TOO SMALL */
+@media only screen and (max-width: 350px) {
+    body {
+        resize: none;
+        overflow: auto;
+    }
+    #main-content {
+        resize: none;
+        overflow: auto;
+    }
+    #home-head {
+        resize: none;
+        overflow: auto;
+    }
+    header {
+        resize: none;
+        overflow: auto;
+    }
+    ul {
+        resize: none;
+        overflow: auto;
+    }
+    footer {
+        resize: none;
+        overflow: auto;
+    }
+    #resume-content {
+        resize: none;
+        overflow: auto;
+    }
+    #bio-content {
+        resize: none;
+        overflow: auto;
+    }
+    #projects-content {
+        resize: none;
+        overflow: auto;
+        
     }
 }

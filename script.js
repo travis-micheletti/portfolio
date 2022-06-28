@@ -33,6 +33,7 @@ const andResponse = document.querySelector('#and-response')
 const colorMode = document.querySelector('#color-mode')
 const colorModeText = document.querySelector('#color-mode-text')
 const colorModeCircle = document.querySelector('#color-mode-circle')
+const bioResponses = document.querySelector('#bio-responses')
 
 //other variables
 let currentColorMode = "dark-mode"
@@ -40,6 +41,8 @@ let currentColorMode = "dark-mode"
 const colorModeClick = () => {
     if (currentColorMode == 'dark-mode') {
         document.body.classList.add('light-mode')
+        homeHead.classList.remove('dark-border')
+        homeHead.classList.add('light-border')
         colorModeText.innerText = "dark mode"
         colorModeText.classList.remove('color-mode-text-dark')
         colorModeText.classList.add('color-mode-text-light')
@@ -47,8 +50,13 @@ const colorModeClick = () => {
         selfie.classList.add('light-mode-selfie')
         colorModeCircle.classList.remove('circle-dark')
         colorModeCircle.classList.add('circle-light')
+        bioResponses.classList.remove('bio-responses-dark')
+        bioResponses.classList.add('bio-responses-light')
+        
     } else {
         document.body.classList.remove('light-mode')
+        homeHead.classList.remove('light-border')
+        homeHead.classList.add('dark-border')
         colorModeText.innerText = "light mode"
         colorModeText.classList.remove('color-mode-text-light')
         colorModeText.classList.add('color-mode-text-dark')
@@ -56,6 +64,8 @@ const colorModeClick = () => {
         selfie.classList.remove('light-mode-selfie')
         colorModeCircle.classList.remove('circle-light')
         colorModeCircle.classList.add('circle-dark')
+        bioResponses.classList.remove('bio-responses-light')
+        bioResponses.classList.add('bio-responses-dark')
     }
 }
 const homeButtonClick = () => {
