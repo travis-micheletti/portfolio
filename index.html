@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link href="http://fonts.cdnfonts.com/css/new-super-mario-font-u" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="color-mode">
@@ -19,7 +19,7 @@
     </div>
     <header>
         <!-- home page specific HTML elements -->
-        <div id="home-head">
+        <div id="home-head" class="dark-border">
             <img src="https://media-exp2.licdn.com/dms/image/C4E03AQHNAQPHokpO_A/profile-displayphoto-shrink_800_800/0/1572099796537?e=1661385600&v=beta&t=qXh0_mSmCgK4HzLzXipYzleZlMvsw5DqFPw0dDarlXY" alt="Travis Micheletti business photograph" id="selfie" class="selfie-normal"/>
             <div id="home-head-text">
                 <h1 id="name-head">travis <br> micheletti</h1>
@@ -34,6 +34,7 @@
         <!-- resume page header specific HTML elements -->
         <div id="resume-head" class="hide">
             <h2>professional experience</h2>
+            <img src="https://c.tenor.com/CpGPWPsgYfIAAAAC/itsalwayssunnyinphiladelphia-interview.gif" id="resume-gif" alt="funny interview gif from always sunny"/>
         </div>
         <!-- bio page header specific HTML elements -->
         <div id="bio-head" class="hide">
@@ -49,43 +50,39 @@
         </div>
     </header>
     <div id="main-content">
-        <div id="home-content">
-            <!-- <h3 id="subhead">junior software developer</h3>
-            <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/attachments/delivery/asset/86a3cf7b9ecc89e2dfa6cecd1efc97a5-1653395446/RedJacketWalkingLeftRightResize/create-a-retro-8-bit-pixel-art-style-gif-animation.gif" alt="running man pixelated cartoon graphic" id="home-pic"/>
-            <div id="home-subtext">i hit the ground running in my development career<br> start exploring my journey below!</div> -->
-        </div>
         <div id="resume-content" class="hide">
-            <img src="https://c.tenor.com/CpGPWPsgYfIAAAAC/itsalwayssunnyinphiladelphia-interview.gif" id="resume-gif" alt="funny interview gif from always sunny"/>
             <img src="https://i.ibb.co/Vjf5gCj/Resume.png" id="resume" alt="Professional experience - Travis Micheletti's Resume"></img>
         </div>
         <div id="projects-div" class="hide">
         <div id="projects-content">
             <img src="https://64.media.tumblr.com/16ffbb4075f835f9400eb829a7992192/7675bcbadcf378bf-76/s400x600/73b6a1ea50c201311bb0d328cea1f3511be1bc8f.gifv" id="projects-pic"/>
-            My projects are currently under construction! Enjoy these baby elephants in the meantime!
+            <p id="projects-text">My projects are currently under construction! Enjoy these baby elephants in the meantime!</p>
             <div>
                 <img src="https://media.gettyimages.com/photos/elephant-baby-playing-picture-id143795695?k=20&m=143795695&s=612x612&w=0&h=7ckxg14bJcE1xDafHo4t2KVwXFRiDP1p16-zGBkWvnU=" id="project-one"alt="Baby elephant playing in the grass"/>
-                <span id="project-one">Project 1</span>
+                <br><span id="project-one">Project 1</span>
             </div>
             <div>
                 <img src="https://akns-images.eonline.com/eol_images/Entire_Site/201438/rs_1024x759-140408154504-1024.baby-elephant-grass.ls.4814.jpg?fit=around%7C1024:759&output-quality=90&crop=1024:759;center,top" id="project-two" alt="Baby elephant holding grass in the air"/>
-                <span id="project-two">Project 2</span></div>
+                <br><span id="project-two">Project 2</span></div>
             <div>
                 <img src="https://www.boredpanda.com/blog/wp-content/uploads/2017/04/58fdbaac3329b_qWDL5Lq__700.jpg" id="project-three" alt="Baby elephant playing with birds"/>
-                <span id="project-three">Project 3</span></div>
+                <br><span id="project-three">Project 3</span></div>
             <div>
                 <img src="https://www.boredpanda.com/blog/wp-content/uploads/2017/04/cute-baby-elephants-44-5901f54331c30__700.jpg" id="project-four" alt="Baby elephant getting a drink"/>
-                <span id="project-four">Project 4</span>
+                <br><span id="project-four">Project 4</span>
             </div>
         </div>
     </div>
         <div id="bio-content" class="hide">
             <img src="https://thumbs.gfycat.com/DecisiveTerribleAsianconstablebutterfly-size_restricted.gif" id="bio-gif" alt="derek zoolander gif asking `Who am I?` and responding back to himself `I don't know"/>
             <div id="brand-statement">
-                “I’m a developing software engineer, former college athlete and gamer with a passion for puzzles, people, and competition..
-                <br>..while clean and concise code with intuitive and aesthetically-pleasing design are top priorities, creating ethical and moral products that keep everyone in mind always comes first.” - Travis Micheletti
-                <br>
+                <p>“I’m a developing software engineer, former college athlete and gamer with a passion for puzzles, people, and competition..</p>
+                
+                <p>..while clean and concise code with intuitive and aesthetically-pleasing design are top priorities, creating ethical and moral products that keep everyone in mind always comes first.” - Travis Micheletti
+                </p>
                 <br>
                 ..but what else?
+                <p id='bio-click-box'>Click to find out!</p>
             </div>
             <div id="extra-info-box">
                 <ul id="bio-buttons">
@@ -94,7 +91,7 @@
                     <li id="food-button">food</li>
                     <li id="and-button">and..</li>
                 </ul>
-                <div id="bio-responses">
+                <div id="bio-responses" class="bio-responses-dark">
                         <span id="sports-response" class="hide">I played all sorts of sports growing up and even competed collegiately in soccer! These days I'm more of a fun and am a huge supporter of the Oklahoma City Thunder and Manchester City FC!</span>
                         <span id="gaming-response" class="hide">I've played Counter-Strike and it's variations since the early 2000's and have always loved shooters. In recent years I've also come to love strategy games like Civilization too!</span>
                         <span id="food-response" class="hide">I'm a huge foodie and love trying different foods from around the world. My wife is Dominican so luckily I get spoiled with tostones and pastelón on the regular. I also love Japanese, Thai, Vietnamese and Indian food!</span>
@@ -104,32 +101,14 @@
         </div>
         <div id="contact-me-content" class="hide">
             <img src="https://y.yarn.co/00b28dca-1d80-4842-acc0-d5f5a9bc43ee_text.gif" id="contact-me-pic" alt="whats updog the office gif with michael and dwight"/>
-            <form action="contact_form.php">
-                <label for="firstName"> first name</label>
-                <input type="text" id="firstName" name="first-name" placeholder="First name">
-                    <br>
-                <label for="lastName"> last name</label>
-                <input type="text" id="lastName" name="last-name" placeholder="Last name">
-                    <br>
-                <label for="location">&nbsp;country&nbsp;&nbsp;</label>
-                <select id="location" name="country">
-                    <option value="usa">USA</option>
-                    <option value="canada">Canada</option>
-                    <option value="mexico">Mexico</option>
-                    <option value="dr">Republica Dominicana</option>
-                    <option value="thailand">Thailand</option>
-                </select>
-                    <br>
-                <label for="email"> &nbsp;email &nbsp;&nbsp;</label>
-                <input type="text" id="email" name="email-address" placeholder="Email Address">
-                    <br>
-                <label for="whats-up">whats updog?</label>
-                <textarea id="whats-up" name="text" placeholder="tell me what you'd like to know or why you're reaching out - tell me what's updog!"></textarea>
-                    <br>
-                <input type="submit" value="Submit">
-            </form>
+            <h3> please reach out however is most convenient for you!</h3>
+            <ul>
+                <li>email: travis.micheletti@gmail.com</li>
+                <li>cell: (843) 513-6335</li>
+                <li>insta: twavisthetwout</li>
+                <li>discord: 53#4639</li>
+            </ul>
         </div>
-        
     </div>
     <nav id="nav-links">
         <ul>
