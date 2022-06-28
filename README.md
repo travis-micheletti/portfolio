@@ -21,6 +21,9 @@
 ![Screen Shot 2022-06-28 at 11 25 43 AM](https://user-images.githubusercontent.com/106038655/176255952-188fc772-c983-4265-9d57-f85c9ed1f2f0.png)
 ![Screen Shot 2022-06-28 at 11 25 54 AM](https://user-images.githubusercontent.com/106038655/176255973-a42c68c7-4f04-4250-b9a0-32fb22a4c1f6.png)
 ![Screen Shot 2022-06-28 at 11 26 05 AM](https://user-images.githubusercontent.com/106038655/176255986-20192647-0f9b-4936-b29d-cf9e608d4dda.png)
+![Screen Shot 2022-06-28 at 11 26 28 AM](https://user-images.githubusercontent.com/106038655/176256214-90b371f0-f4f9-4f49-bf9b-ebca0b58833d.png)
+![Screen Shot 2022-06-28 at 11 26 33 AM](https://user-images.githubusercontent.com/106038655/176256229-49f2ad1e-b7f0-4db5-b46c-89d43fe6805f.png)
+
 
 ### deployment
 Netlify link: https://sparkly-puppy-63010f.netlify.app/
