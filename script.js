@@ -213,18 +213,6 @@ andButton.addEventListener('click', andButtonClick)
 foodButton.addEventListener('click', foodButtonClick)
 gamingButton.addEventListener('click', gamingButtonClick)
 sportsButton.addEventListener('click', sportsButtonClick)
-homeButton.addEventListener('click', clickTest)
 contactMeButton.addEventListener('click', contactMeButtonClick)
-homeButton.addEventListener('mouseover', applyHover)
 colorMode.addEventListener('click', colorModeClick)
-// projectOneText.addEventListener('click', clickTest)
-// projectTwoText.addEventListener('click', clickTest)
-// projectThreeText.addEventListener('click', clickTest)
-// projectFourText.addEventListener('click', clickTest)
 
-function clickTest() {
-    console.log('click registered')
-}
-function applyHover() {
-    homeButton.classList.toggle('hover')
-}
