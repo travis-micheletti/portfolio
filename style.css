@@ -423,6 +423,9 @@ height: 100px;
         position: relative;
         left: 40px;
     }
+    #brand-statement {
+        font-size: 32px;
+    }
     #resume-content {
         flex-direction: column;
         justify-content:flex-start;
