@@ -1,10 +1,26 @@
 # travis micheletti - portfolio
 
 ### initial wireframe
+![image](https://user-images.githubusercontent.com/106038655/176255032-63917173-2aec-42d8-8c84-9e6d5d849c76.png)
+![image](https://user-images.githubusercontent.com/106038655/176255095-b672a926-85aa-4026-93b1-09973a305742.png)
+![image](https://user-images.githubusercontent.com/106038655/176255139-af955bd5-33f2-4438-b023-7cba727706e1.png)
+![image](https://user-images.githubusercontent.com/106038655/176255172-b56e1481-6fdc-4d43-8bf4-f461571b0e7d.png)
+
 
 ### finished design for mobile
+![Screen Shot 2022-06-28 at 11 23 58 AM](https://user-images.githubusercontent.com/106038655/176255801-90d1e525-871d-42ab-a1cd-76176608bef0.png)
+![Screen Shot 2022-06-28 at 11 24 20 AM](https://user-images.githubusercontent.com/106038655/176255821-47f11522-abb9-4ecf-8b04-0aec5b20f734.png)
+![Screen Shot 2022-06-28 at 11 24 28 AM](https://user-images.githubusercontent.com/106038655/176255857-e5acd2a8-8991-41a3-ae1b-9152379db769.png)
+![Screen Shot 2022-06-28 at 11 24 40 AM](https://user-images.githubusercontent.com/106038655/176255872-4e92f92a-9c68-467a-ba8f-a3e1beb21209.png)
+![Screen Shot 2022-06-28 at 11 24 50 AM](https://user-images.githubusercontent.com/106038655/176255888-3a2ad669-4e1a-4ddc-9967-74e11e3f7af7.png)
+![Screen Shot 2022-06-28 at 11 24 58 AM](https://user-images.githubusercontent.com/106038655/176255904-6fa34cd7-018d-44a1-934e-12c2e311a813.png)
+![Screen Shot 2022-06-28 at 11 25 07 AM](https://user-images.githubusercontent.com/106038655/176255911-ed20fd4a-5e3b-4de9-81a2-fb8567d0eb99.png)
 
 ### finished design for web
+![Screen Shot 2022-06-28 at 11 25 25 AM](https://user-images.githubusercontent.com/106038655/176255925-ada845e3-250b-4330-bbdd-be809461227c.png)
+![Screen Shot 2022-06-28 at 11 25 43 AM](https://user-images.githubusercontent.com/106038655/176255952-188fc772-c983-4265-9d57-f85c9ed1f2f0.png)
+![Screen Shot 2022-06-28 at 11 25 54 AM](https://user-images.githubusercontent.com/106038655/176255973-a42c68c7-4f04-4250-b9a0-32fb22a4c1f6.png)
+![Screen Shot 2022-06-28 at 11 26 05 AM](https://user-images.githubusercontent.com/106038655/176255986-20192647-0f9b-4936-b29d-cf9e608d4dda.png)
 
 ### deployment
 Netlify link: https://sparkly-puppy-63010f.netlify.app/
